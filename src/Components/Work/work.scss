@@ -6,8 +6,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 
-    ul {
+    /* ul {
         margin: 10px;
         padding: 0;
         list-style: none;
@@ -29,7 +30,7 @@
                 
             }
         }
-    }
+    } */
 
     h1 {
         font-size: 40px;
@@ -53,7 +54,7 @@
 
         .item {
             margin: 50px;
-            width: 260px;
+            width: 300px;
             height: 170px;
             border-radius: 20px;
             border: 1px solid rgb(187, 228, 241);
@@ -94,15 +95,5 @@
         a, a:hover, a:visited {
             color: $mainColor;
         }
-    }
-
-    hr {
-        position: relative;
-        align: center;
-        color: $backgroundColor;
-        height: 10px;
-        width: 70%;
-        margin: 100px auto 0 auto;
-        opacity: 1;
     }
 }

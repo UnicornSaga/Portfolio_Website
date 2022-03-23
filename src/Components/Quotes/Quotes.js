@@ -12,7 +12,6 @@ export default function Quotes() {
                 </blockquote>
                 <cite> - Peter Thiel - Zero To One</cite>
             </div>
-            <hr />
         </div>
     )
 }

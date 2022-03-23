@@ -26,7 +26,6 @@ export default function Portfolio() {
                 <h3>- Languages: Vietnamese, Conversational and Work Proficiency in English</h3>
                 <h3>- Interests: Mixology, Stock Trading, Work Out</h3>
             </div>
-            <hr />
         </div>
     )
 }
